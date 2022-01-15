@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <!-- User Nmae -->
+        <div class="input">
+          <label for="name">User_Name</label>
+          <input type="text" id="name" />
+          <span id="error-name"></span>
+        </div>
+
+        <!-- Email -->
+        <div class="input">
+          <label for="email">User_Email</label>
+          <input type="text" id="email" />
+          <span id="error-email"></span>
+        </div>
+
+        <!-- Password -->
+        <div class="input">
+          <label for="password">Password</label>
+          <input type="text" id="password" />
+          <span id="error-password"></span>
+        </div>
+
+        <!-- confirmed Password -->
+        <div class="input">
+          <label for="confirmed-password">Password</label>
+          <input type="text" id="confirmed-password" />
+          <span id="error-confirmed-password"></span>
+        </div>
+
+        <!-- User Age -->
+        <div class="input">
+          <label for="age">Age</label>
+          <input type="text" id="age" />
+          <span id="error-age"></span>
+        </div>
+
+        <!-- Link -->
+        <div class="input">
+          <label for="link">Enter Link</label>
+          <input type="text" id="link" />
+          <span id="error-link"></span>
+        </div>
+
+        <!-- Phone Number -->
+        <div class="input">
+          <label for="phone">Phone Number</label>
+          <input type="text" id="phone" />
+          <span id="error-phone"></span>
+        </div>
+
+        <!-- Message -->
+        <div class="input">
+          <textarea
+            id="message"
+            cols="30"
+            rows="10"
+            placeholder="Message"
+          ></textarea>
+          <span id="error-message"></span>
+        </div>
+
+        <!-- submit -->
+        <input type="submit" id="submit" />
+      </form>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
